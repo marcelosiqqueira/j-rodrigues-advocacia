@@ -39,7 +39,7 @@ export default function Header()
     
             </div>
 
-            <img src="https://lunetas.com.br/wp-content/uploads/2021/04/como-saber-se-estou-mimando-demais-o-meu-filho-portal-lunetas.jpg" alt="" />
+            <img className="header-image" src="https://lunetas.com.br/wp-content/uploads/2021/04/como-saber-se-estou-mimando-demais-o-meu-filho-portal-lunetas.jpg" alt="" />
         </header>
     );
 }

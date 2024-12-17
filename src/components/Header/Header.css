@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    position: relative;
 }
 
 .logo-container a {
@@ -28,15 +29,18 @@
 
 .logo-container p {
     font-weight: 700;
+    position: relative;
+    display: inline-block;
 }
 
 .logo-container p::before {
     position: absolute;
     background-color: var(--red-color);
-    top: 3rem;
+    left: 0;
     height: 1px;
-    width: 100px;
+    width: 72%;
     content: "";
+    bottom: 2rem;
 }
 
 .right-header-container {
@@ -90,4 +94,8 @@
 .links-nav-container a {
     text-decoration: none;
     color: white;
+}
+
+.header-image {
+    max-width: 100vw;;
 }
