@@ -4,11 +4,21 @@
 import './App.css'
 
 import Header from './components/Header/Header'
-
+import { LandingCarousel } from './components/LandingCarousel/LandingCarousel'
+import { slides } from './components/LandingCarousel/slidesData'
 function App() {
 
   return (
-    <Header></Header>
+    <div>
+      <Header></Header>
+      <LandingCarousel 
+        slides={slides} 
+        whatsappLink="https://wa.me/seunumero"
+        moreLink="#vejamais"
+      />
+    </div>
+    
+    
   )
 }
 

@@ -1,0 +1,78 @@
+.hero-carousel {
+    position: relative;
+  }
+  
+  .hero-carousel__slide {
+    position: relative;
+    height: 80vh; /* Ajustar conforme a necessidade */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-carousel__background {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+  }
+  
+  .hero-carousel__overlay {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: #fff;
+    max-width: 600px;
+    z-index: 2;
+  }
+  
+  .hero-carousel__title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-carousel__subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-carousel__actions {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .hero-carousel__btn {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-carousel__btn:hover {
+    background-color: #555;
+  }
+  
+  .hero-carousel__btn--whatsapp {
+    background-color: #25D366;
+  }
+  
+  .hero-carousel__btn--whatsapp:hover {
+    background-color: #1EBF5C;
+  }
+  
+  .hero-carousel__btn--more {
+    background-color: #444;
+  }
+  
+  .slick-dots li button:before {
+    font-size: 12px;
+    color: #fff;
+  }
+  
