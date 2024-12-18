@@ -6,6 +6,7 @@ import { LandingCarouselProps } from './LandingCarousel.types';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './LandingCarousel.css';
+import CustomArrow from '../CustomArrow/CustomArrow';
 
 export const LandingCarousel: React.FC<LandingCarouselProps> = ({
   slides,
@@ -15,18 +16,18 @@ export const LandingCarousel: React.FC<LandingCarouselProps> = ({
 }) => {
   
   const settings: Slider['props'] = {
-    dots: true,           // mostra os indicadores embaixo
+    dots: true,     
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,         // setas de navegação lateral
+    arrows: true,       
     autoplay: true,
     autoplaySpeed: 5000,
     adaptiveHeight: true,
-    // Você pode customizar setas criando seus próprios componentes e passando via nextArrow e prevArrow
-    // nextArrow={<CustomNextArrow />}
-    // prevArrow={<CustomPrevArrow />}
+    nextArrow: <CustomArrow direction="next" />,
+    prevArrow: <CustomArrow direction="prev" />,
+
   };
 
   return (

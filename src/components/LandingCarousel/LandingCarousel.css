@@ -4,7 +4,7 @@
   
   .hero-carousel__slide {
     position: relative;
-    height: 80vh; /* Ajustar conforme a necessidade */
+    height: 80vh; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,7 +21,7 @@
   
   .hero-carousel__overlay {
     position: absolute;
-    top: 50%;
+    top: 57%;
     left: 5%;
     transform: translateY(-50%);
     color: #fff;
@@ -30,16 +30,21 @@
   }
   
   .hero-carousel__title {
+    color: #fff;
     font-size: 3rem;
     margin-bottom: 1rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   }
   
   .hero-carousel__subtitle {
+    color: #fff;
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   }
   
   .hero-carousel__actions {
+    color: #fff;
     display: flex;
     gap: 1rem;
   }
@@ -53,6 +58,7 @@
     font-weight: bold;
     border-radius: 0.25rem;
     transition: background-color 0.3s ease;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para melhor leitura */
   }
   
   .hero-carousel__btn:hover {
