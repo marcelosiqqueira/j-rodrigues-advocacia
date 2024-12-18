@@ -1,0 +1,20 @@
+
+import './CardArea.css';
+import { CardAreaProps } from './CardArea.types';
+
+
+
+
+export default function CardArea({title, image}: CardAreaProps) {
+
+    return (
+        <li className='card-area'>
+
+            <img src={image} alt={title} className='card-image' />
+
+            <div className='card-content'>
+                <h3 className='card-title'>{title}</h3>
+            </div>
+        </li>
+    );
+}
