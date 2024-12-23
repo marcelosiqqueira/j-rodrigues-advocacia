@@ -12,9 +12,9 @@ export default function CardArea({title, image}: CardAreaProps) {
 
             <img src={image} alt={title} className='card-image' />
 
-            <div className='card-content'>
-                <h3 className='card-title'>{title}</h3>
-            </div>
+            <h3 className='card-title'>{title}</h3>
+
+            <a href="#" target="_blank" className="card-button">CHAME AGORA</a>
         </li>
     );
 }

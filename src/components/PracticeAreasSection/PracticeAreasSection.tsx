@@ -1,4 +1,3 @@
-import React from 'react';
 import './PracticeAreasSection.css'; 
 import CardArea from '../CardArea/CardArea';
 
