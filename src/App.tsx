@@ -2,6 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import AboutUs from './components/AboutUs/AboutUs'
 
 import Header from './components/Header/Header'
 import { LandingCarousel } from './components/LandingCarousel/LandingCarousel'
@@ -18,6 +19,7 @@ function App() {
         moreLink="#vejamais"
       />
       <PracticeAreasSection/>
+      <AboutUs/>
     </div>
     
     

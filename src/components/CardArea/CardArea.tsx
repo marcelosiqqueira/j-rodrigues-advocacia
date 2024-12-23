@@ -3,8 +3,6 @@ import './CardArea.css';
 import { CardAreaProps } from './CardArea.types';
 
 
-
-
 export default function CardArea({title, image}: CardAreaProps) {
 
     return (

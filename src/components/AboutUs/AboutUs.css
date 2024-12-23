@@ -1,0 +1,45 @@
+.about-us-container {
+    background: url("src/assets/images/hammer.svg") no-repeat left 0px top 50%;
+    background-color: var(--high-dark-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 15%;
+}
+
+.image-container img {
+    border-radius: 5px;
+}
+
+.image-container {
+    box-shadow: -10px 10px #262627;
+    border-radius: 5px;
+}
+
+.text-about-container {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* padding-left: 30%; */
+}
+
+.subtitle {
+    display: flex;
+}
+
+.subtitle span{
+    width: 100px;
+    height: 3px;
+    background: var(--red-color);
+    display: flex;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+}
+
+.text-about-container h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--red-color);
+}
