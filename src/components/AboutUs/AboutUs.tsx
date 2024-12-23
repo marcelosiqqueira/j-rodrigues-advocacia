@@ -5,7 +5,7 @@ export default function AboutUs(){
     return (
         <section className="about-us-container">
             <div className="image-container">
-                <img src="src/assets/images/deal.jpg" alt="aa" />
+                <img src="src/assets/images/joffre_jocassia.jpg" alt="aa" />
             </div>
 
             <div className="text-about-container">
