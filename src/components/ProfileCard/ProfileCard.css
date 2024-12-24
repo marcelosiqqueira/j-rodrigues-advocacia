@@ -5,38 +5,6 @@
     justify-content: center;
     gap: 3rem;
     padding: 6% 15%;
-    background-color: #535353;
-    /* height: 1000px; */
-}
-
-.profile-name {
-    position: relative;
-}
-
-.profile-name h1 {
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-.top-line-title {
-    content: "";
-    position: absolute;
-    height: 3px;
-    width: 120px;
-    right: 82%;
-    background-color: #fff;
-    transition: 0.4s;
-}
-
-.bottom-line-title {
-    content: "";
-    position: absolute;
-    height: 3px;
-    width: 100px;
-    top: 4rem;
-    left: 22rem;
-    background-color: #fff;
-    transition: 0.4s;
 }
 
 .profile-info-container {

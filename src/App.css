@@ -1,9 +1,9 @@
 :root {
   --red-color: #9b0a0d;
-  --gray-color: #afafaf;
+  --gray-color: #535353;
   --high-dark-color: #1d1e1f;
+  --low-dark-color: #242424;
 }
-
 * {
   margin: 0;
   padding: 0;

@@ -2,6 +2,7 @@ import React from 'react';
 
 import "./ProfileCard.css";
 import { ProfileCardProps } from './ProfileCard.types';
+import SectionTitle from '../SectionTitle/SectionTitle';
 
 
 const ProfileCard: React.FC<ProfileCardProps> = ({
@@ -16,12 +17,7 @@ const ProfileCard: React.FC<ProfileCardProps> = ({
         
         <div className="profile-container">
 
-            <div className="profile-name">
-                <span className='top-line-title'></span>
-                <h1> {name} </h1>      
-                <span className='bottom-line-title'></span>
-            </div> 
-            
+            <SectionTitle text={name} />         
             <div className="profile-info-container">
 
                 <div className="profile-info">

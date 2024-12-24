@@ -2,6 +2,7 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import AboutOffice from './components/AboutOffice/AboutOffice'
 import AboutUs from './components/AboutUs/AboutUs'
 
 import Header from './components/Header/Header'
@@ -22,6 +23,7 @@ function App() {
       <PracticeAreasSection/>
       <AboutUs/>
       <ProfileSection/>
+      <AboutOffice/>
       
     </div>
     

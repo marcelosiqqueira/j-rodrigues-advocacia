@@ -1,16 +1,13 @@
 import './PracticeAreasSection.css'; 
 import CardArea from '../CardArea/CardArea';
+import SectionTitle from '../SectionTitle/SectionTitle';
 
 export default function PracticeAreasSection() {
     
     return (
         <section className='practice-areas-section'>
             <div className="practice-areas-container">
-                <div className="section-title">
-                    <span className='top-line-title'></span>
-                    <h2>Áreas de atuação</h2>        
-                    <span className='bottom-line-title'></span>
-                </div>
+                <SectionTitle text="ÁREAS DE ATUAÇÃO" />
                 
                 <div className="practice-cards-container">
 
