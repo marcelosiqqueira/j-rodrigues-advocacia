@@ -8,6 +8,7 @@ import Header from './components/Header/Header'
 import { LandingCarousel } from './components/LandingCarousel/LandingCarousel'
 import { slides } from './components/LandingCarousel/slidesData'
 import PracticeAreasSection from './components/PracticeAreasSection/PracticeAreasSection'
+import ProfileSection from './components/ProfileSection/ProfileSection'
 function App() {
 
   return (
@@ -20,6 +21,8 @@ function App() {
       />
       <PracticeAreasSection/>
       <AboutUs/>
+      <ProfileSection/>
+      
     </div>
     
     
