@@ -1,0 +1,35 @@
+.section-title {
+    position: relative;
+}
+
+.section-title h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.top-line-title {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100px;
+    right: 85%;
+    background-color: #fff;
+    transition: 0.4s;
+}
+
+.bottom-line-title {
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 100px;
+    top: 4rem;
+    left: 85%;
+    background-color: #fff;
+    transition: 0.4s;
+}
+
+.section-title:hover .top-line-title, .section-title:hover .bottom-line-title {
+    width: 170px;
+    right: 80%;
+    transition: 0.4s;
+}
