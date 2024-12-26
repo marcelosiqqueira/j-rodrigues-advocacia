@@ -1,7 +1,5 @@
 .about-office-container {
     background-color: var(--low-dark-color);
-    height: 1000px;
-
     display: flex;
     flex-direction: column;
     align-items: center;

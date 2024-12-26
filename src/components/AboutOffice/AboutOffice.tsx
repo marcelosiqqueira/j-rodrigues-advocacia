@@ -17,7 +17,7 @@ export default function AboutOffice() {
                         Lorem ipsum dolor sit amet. Et consequatur dolores est voluptatibus laudantium et internos ipsam. Sed sint suscipit ut corrupti consequatur qui deserunt facilis est sunt rerum eum ullam voluptate sed pariatur consequatur. Id voluptate error ex sint earum et facere alias aut corporis veritatis 33 corporis commodi vel error dignissimos. Ut nihil impedit.
                     </p>
                     <a
-                        href="#"
+                        href="https://maps.app.goo.gl/aSBVCkUpyWzCpD6J9"
                         className="localization-button"
                         target="_blank"
                     >
