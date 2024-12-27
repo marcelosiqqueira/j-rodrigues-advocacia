@@ -6,7 +6,7 @@ import { clientReviewsData } from "./clientReviewsData";
 export default function ClientReviewsSection(){
 
     return (
-        <section className="client-reviews-section-container">
+        <section className="client-reviews-section-container" id="client-reviews">
             <SectionTitle text="DEPOIMENTO DOS CLIENTES" />
 
             <p className="client-reviews-section-text">

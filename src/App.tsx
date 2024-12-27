@@ -19,8 +19,7 @@ function App() {
       <Header/>
       <LandingCarousel 
         slides={slides} 
-        whatsappLink="https://wa.me/seunumero"
-        moreLink="#vejamais"
+        moreLink="#practice-cards-container"
       />
       <PracticeAreasSection/>
       <AboutUs/>

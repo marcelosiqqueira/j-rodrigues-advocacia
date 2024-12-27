@@ -56,6 +56,14 @@
     width: 100%;
 }
 
+.informations-container a {
+    color: rgb(219 219 219);
+}
+
+.informations-container a:hover {
+    color: white;
+}
+
 .informations-container span {
     display: flex;
     align-items: center;
@@ -79,6 +87,10 @@
     padding-top: 15px;
 }
 
+.links-nav-container a:hover {
+    color: white !important;
+}
+
 .links-nav-container a span {
     height: 5px;
     width: 5px;
@@ -92,11 +104,12 @@
 
 .links-nav-container a {
     text-decoration: none;
-    color: white;
+    color: rgb(219 219 219);
     font-size: 1.4rem;
     display: flex;
     align-items: center;
     font-weight: 400;
+    transition: 0.3s;
 }
 
 .header-image {

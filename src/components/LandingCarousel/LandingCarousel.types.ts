@@ -6,7 +6,6 @@ export interface Slide {
   
   export interface LandingCarouselProps {
     slides: Slide[];
-    whatsappLink: string;
     moreLink: string;
     className?: string;
   }

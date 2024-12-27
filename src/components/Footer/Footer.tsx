@@ -3,7 +3,7 @@ import './Footer.css';
 export default function Footer() {
 
     return (
-        <footer className="footer">
+        <footer className="footer" id="footer-container">
 
             <div className="footer-container">
                 <div className="footer-logo-container">
@@ -16,32 +16,32 @@ export default function Footer() {
                     <h4>ÁREAS DE ATUAÇÃO</h4>
 
                     <ul>
-                        <a href="#areas-atuacao">
+                        <a href="#practice-cards-container">
                             <span className='bottom-line-footer'></span>
                             Vara Da Família
                         </a>
 
-                        <a href="#areas-atuacao">
+                        <a href="#practice-cards-container">
                             <span className='bottom-line-footer'></span>
                             Direito Trabalhista
                         </a>
 
-                        <a href="#areas-atuacao">
+                        <a href="#practice-cards-container">
                             <span className='bottom-line-footer'></span>
                             Vara Da Família
                         </a>
 
-                        <a href="#areas-atuacao">
+                        <a href="#practice-cards-container">
                             <span className='bottom-line-footer'></span>
                             Direito Trabalhista
                         </a>
 
-                        <a href="#areas-atuacao">
+                        <a href="#practice-cards-container">
                             <span className='bottom-line-footer'></span>
                             Vara Da Família
                         </a>
 
-                        <a href="#areas-atuacao">
+                        <a href="#practice-cards-container">
                             <span className='bottom-line-footer'></span>
                             Direito Trabalhista
                         </a>

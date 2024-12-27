@@ -5,7 +5,7 @@ import SectionTitle from '../SectionTitle/SectionTitle';
 export default function PracticeAreasSection() {
     
     return (
-        <section className='practice-areas-section'>
+        <section className='practice-areas-section' id="practice-cards-container">
             <div className="practice-areas-container">
                 <SectionTitle text="ÁREAS DE ATUAÇÃO" />
                 

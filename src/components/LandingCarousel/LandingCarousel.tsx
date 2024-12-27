@@ -10,10 +10,11 @@ import CustomArrow from '../CustomArrow/CustomArrow';
 
 export const LandingCarousel: React.FC<LandingCarouselProps> = ({
   slides,
-  whatsappLink,
   moreLink,
   className
 }) => {
+
+  const whatsappLink = "https://wa.me/5534991610712?text=Olá%2C%20entrei%20em%20contato%20pelo%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20os%20serviços%20do%20seu%20escritório%20de%20advocacia.";
   
   const settings: Slider['props'] = {
     dots: true,     

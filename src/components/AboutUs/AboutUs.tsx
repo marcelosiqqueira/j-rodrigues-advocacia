@@ -3,7 +3,7 @@ import './AboutUs.css';
 export default function AboutUs(){
 
     return (
-        <section className="about-us-container">
+        <section className="about-us-container" id="about-us-container">
             <div className="image-container">
                 <img src="src/assets/images/joffre_jocassia.jpg" alt="aa" />
             </div>
