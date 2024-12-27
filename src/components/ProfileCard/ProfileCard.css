@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .profile-info {
@@ -48,5 +48,5 @@
 
 .image-container img {
     max-width: 600px;
-    max-height: 600px;
+    max-height: 510px;
 }

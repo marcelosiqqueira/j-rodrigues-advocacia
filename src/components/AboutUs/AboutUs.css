@@ -13,7 +13,7 @@
 }
 
 .image-container {
-    box-shadow: -10px 10px #262627;
+    box-shadow: -10px 10px var(--gray-color);
     border-radius: 5px;
 }
 

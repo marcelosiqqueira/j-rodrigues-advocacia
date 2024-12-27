@@ -1,0 +1,112 @@
+.footer-container {
+    background-color: var(--low-dark-color);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    padding: 2% 10%;
+}
+
+.footer-logo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footer-logo-container img{
+    max-width: 150px;
+}
+
+.footer-logo-container p {
+    font-weight: 700;
+}
+
+.practice-areas-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.practice-areas-footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+    list-style: none;
+}
+
+.practice-areas-footer li {
+    margin-bottom: 1rem;
+}
+
+.practice-areas-footer a {
+    color: #b0afae;
+    font-weight: 100;
+    font-size: 0.875rem;
+    line-height: 21px;
+    transition: 0.3s;
+    position: relative;
+}
+
+.practice-areas-footer h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.bottom-line-footer {
+    height: 5px;
+    width: 5px;
+    background-color: #b0afae;
+    content: "";
+    position: absolute;
+    transform: translateX(-1.8rem) rotate(45deg);
+    margin: 10px 0 0 12px;
+    transition: 0.5s;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    /* justify-content: center; */
+}
+
+.contact-container h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.contacts-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contacts-footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;    
+    cursor: pointer;
+}
+
+.contact-container span {
+    color: #b0afae;
+    font-weight: 100;
+    font-size: 0.875rem;
+    line-height: 21px;
+    transition: 0.3s;
+    position: relative;
+}
+
+.bottom-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    background-color: black;
+}

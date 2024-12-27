@@ -28,6 +28,7 @@
     font-weight: 700;
     position: relative;
     display: inline-block;
+    font-size: 1.3rem;
 }
 
 .logo-container p::before {
@@ -59,7 +60,8 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 17px;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
 .informations-container span img {
@@ -91,9 +93,10 @@
 .links-nav-container a {
     text-decoration: none;
     color: white;
-    font-size: 21px;
+    font-size: 1.4rem;
     display: flex;
     align-items: center;
+    font-weight: 400;
 }
 
 .header-image {

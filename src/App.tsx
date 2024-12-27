@@ -5,6 +5,7 @@ import './App.css'
 import AboutOffice from './components/AboutOffice/AboutOffice'
 import AboutUs from './components/AboutUs/AboutUs'
 import ClientReviewsSection from './components/ClientReviewsSection/ClientReviewsSection'
+import Footer from './components/Footer/Footer'
 
 import Header from './components/Header/Header'
 import { LandingCarousel } from './components/LandingCarousel/LandingCarousel'
@@ -26,6 +27,7 @@ function App() {
       <ProfileSection/>
       <AboutOffice/>
       <ClientReviewsSection/> 
+      <Footer/>
       
     </div>
     
