@@ -12,6 +12,7 @@ import { LandingCarousel } from './components/LandingCarousel/LandingCarousel'
 import { slides } from './components/LandingCarousel/slidesData'
 import PracticeAreasSection from './components/PracticeAreasSection/PracticeAreasSection'
 import ProfileSection from './components/ProfileSection/ProfileSection'
+import WppFloatingButton from './components/WppFloatingButton/WppFloatingButton'
 function App() {
 
   return (
@@ -27,10 +28,9 @@ function App() {
       <AboutOffice/>
       <ClientReviewsSection/> 
       <Footer/>
-      
+      <WppFloatingButton />
     </div>
-    
-    
+
   )
 }
 
